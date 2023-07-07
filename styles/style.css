@@ -12,11 +12,11 @@
     align-items: center;
 }
 .img-photo{
-    width: 120px;
+    width: 150px;
 }
 .iteam{
     list-style: none;
-    margin-right: 10px;
+    margin-right: 40px;
     
 }
 .menus{
@@ -107,6 +107,8 @@
     color:white;
     background-color: gray;
     padding: 2px;
+    border: 2px solid grey;
+    border-radius: 5px;
     
 }
 .Services{
@@ -151,4 +153,8 @@
 .last{
     color:black;
     text-align: center;
+    font-weight: bold;
+}
+.btn3:hover{
+    color: red;
 }
