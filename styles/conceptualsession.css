@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(51, 48, 48);
+    padding: 10px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-photo{
+    width: 120px;
+}
+.iteam{
+    list-style: none;
+    margin-right: 10px;
+    
+}
+.menus{
+    display: flex;
+}
+.iteam:hover{
+    color: blue;
+}
+.banner-img{
+    width: 250px;
+}
+.banner-container{
+    display: flex;
+    height: 100vh;
+    border: 2px solid grey;
+    justify-content:space-around;
+    align-items: center;
+    background-image: url(background.png),
+    linear-gradient(45deg,#000,#000);
+    color: white;
+
+
+}
+.title{
+    font-size: 50px
+    
+    ;
+    font-weight: 40px
+    ;
+}
+.descrip{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn2{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.About{
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    color: aliceblue;
+}
+.titl{
+    font-size: 30px;
+}
+.img-photo{
+    width: 200px;
+}
+.box{
+    width: 230px;
+    height: 260px;
+    box-shadow: 5px 5px 15px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.icon{
+    width: 60px;
+    margin-top: 10px;
+    
+}
+.web{
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+.service-descrip{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.btn3{
+    color:white;
+    background-color: gray;
+    padding: 2px;
+    
+}
+.Services{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.backs{
+    background-image: url(background.png),
+    linear-gradient(45deg,#000,#000);
+}
+.footer-discrib{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    border: 5px solid gray;
+}
+.fotp{
+    width: 200px;
+    height: 200px;
+}
+.line{
+    font-weight: bold;
+}
+.first{
+    margin-top: 40px;
+}
+.second{
+    margin-top: 40px;
+}
+.third{
+    margin-top: 40px;
+}
+.fourth{
+    margin-top: 40px;
+}
+.indicate{
+    margin-bottom: 20px;
+}
+.last{
+    color:black;
+    text-align: center;
+}
